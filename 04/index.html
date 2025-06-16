@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>fORMULÁRIO</h1>
+    <form action="" method="">
+        <fieldset>
+            <legend>Dados of the forms</legend>
+      <label for="nome">Nome completo: </label>
+      <input
+        type="text"
+        id="nome"
+        name="nome"
+        placeholder="Digite seu nome..."
+        maxlength="15"
+      />
+
+      <br />
+      <br />
+
+      <label for="">Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="botao email ai brother"
+      />
+
+      <br /><br />
+      <label for="senha">Senha:</label>
+      <input
+        type="password"
+        name="senha"
+        id="senha"
+        placeholder="Senha maluca"
+      />
+      <br /><br />
+      <input type="submit" value="Login" />
+      </fieldset>
+    
+    <br><br>
+    <label for="Data">Data de nascimento</label>
+    <input type="date" id="Data">
+    <label for="Data"></label>
+    <input type="datetime-local">
+    <input type="time">
+    <br><br>
+    <label for="telefone">telefone</label>
+    <input 
+    type="tel" 
+    name="telefone"
+    data-mask="(00) 00000-0000" 
+    data-mask-selectonfous="true"  
+    >
+    <br><br>
+
+    <label for="text">Texto grande</label>
+    <textarea name="textao" 
+    id="textao"
+    placeholder="Colaloca um texto legal ai :/"
+    >
+    </textarea>
+
+    <br><br>
+
+    <label for="cor">Cor:</label>
+    <input type="color" name="cor" id="cor">
+
+    <br><br>
+
+    <label for="numero">numero</label>
+    <input type="number" min="-50" max="100" value="7" step="5"/>
+
+    <br><br>
+    <label for="">Barrinha legal</label>
+    0 <input type="range" name="barra" id="barra"
+        min="0" max="100" step="20"> 100
+
+        <br><br>
+
+        <label for="">Selecione a parada ai: </label>
+        <br>
+        <input type="radio" name="nomeManeiro" value="resposta"> Opção ai que existe
+        <input type="radio" name="nomeManeiro" value="respostaOutra"> Outra Opção
+        <input type="radio" name="nomeManeiro" value="respostaMaisuma"> Mais uma Opção
+        
+        <br><br>
+
+        <label for="">Redes Sociais</label>
+        <br>
+        <input type="checkbox"> Uatisap
+        <input type="checkbox"> Feici
+        <input type="checkbox"> Tuiter
+
+        <br><br>
+
+        <label for="Cidades">selecione a cidade:</label>
+        <select name="Cidades" id="Cidades">
+            <optgroup name="es" value="Es" label="ES">
+            <option value="cariacroca">Cariacica</option>
+            <option value="bosto">Boston</option>
+            </optgroup>
+            <option value="peq">Pequim</option>
+            <option value="hav">Havana</option>
+        </select>
+        <br><br>
+
+        <input type="reset" value="reset">
+        
+</form> 
+  </body>
+</html>
