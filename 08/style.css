@@ -1,0 +1,27 @@
+body{
+    background-color: honeydew;
+    text-align: center;
+
+}
+#principal{
+
+    width: 90%;
+    height: 800px;
+    background-color: brown;
+    margin: auto;
+    background-image: linear-gradient(rgb(202, 78, 240), rgb(213, 253, 138));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#secundaria{
+    width: 90%;
+    height: 2000px;
+    margin:auto;
+    background-color: rgb(82, 62, 62);
+    background-image: url(https://i.redd.it/whats-the-most-ridiculous-hydrogen-bomb-vs-coughing-baby-v0-hxq1xm3nt3bd1.jpg?width=680&format=pjpg&auto=webp&s=8b559864e281fe18452ca06258e71aadc15ec533);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-attachment: scroll;
+}
