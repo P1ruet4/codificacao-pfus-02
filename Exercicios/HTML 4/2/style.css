@@ -1,21 +1,82 @@
 body{
 
-    background-color: rgb(0, 247, 255);
+    background-color: rgb(255, 230, 0);
 }
-#adidas{
+#bb{
     width: 90%;
-    height: 2000px;
+    height: 900px;
     margin:auto;
-    background-color: rgb(82, 62, 62);
     background-image: url(https://i.redd.it/whats-the-most-ridiculous-hydrogen-bomb-vs-coughing-baby-v0-hxq1xm3nt3bd1.jpg?width=680&format=pjpg&auto=webp&s=8b559864e281fe18452ca06258e71aadc15ec533);
     background-size: auto;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: 0%;
     background-attachment: scroll;
+    
 }
+
+#teste{
+
+    background-color: rgb(0, 225, 255);
+
+
+}
+
+
+
 h1{
 
     background-color: rgb(0, 255, 0);
     
     
+}
+#narget{
+
+    width: 90%;,
+    
+    height: 900px;
+    margin:auto;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5qumLfhPZMspi9MVyokwAjHr54DyeU8DHUw&s);
+    background-size: auto;
+    background-repeat: repeat-y;
+    background-position: 0%;
+
+}
+#rato{
+
+    width: 90%;
+    height: 900px;
+    margin:auto;
+    background-image: url(https://preview.redd.it/ru45xe28s5y81.png?auto=webp&s=35d98aa70ef0d928f991d8a243acc6f2e0341c8f);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 0%;
+
+
+}
+#branco{
+
+    width: 90%;
+    height: 900px;
+    margin:auto;
+    background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTcEl20ciXjb9pE-ThE5rYO-__XwVFJwOCMymkEDT00CQ26uvk6lol42lUMdd2sXRAvilwaHN6wXHJY-KD-XVbd72g3fYJUAXMkNWvbUA);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+#bu{
+
+     width: 90%;
+    height: 2000px;
+    margin:auto;
+    background-color: rgb(176, 105, 224);
+    background-image: url(https://m.media-amazon.com/images/I/81VRHjuiz0L.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+
+
 }
