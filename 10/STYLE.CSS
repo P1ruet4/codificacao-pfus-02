@@ -1,0 +1,23 @@
+body{
+
+    background-color: blue;
+    height: 2000px;
+    margin: 0px;
+    padding: 0px;
+
+}
+.menu{
+
+    background-color: aliceblue;
+    
+}
+#menu > ul{
+
+    list-style: none;
+    text-align: center;
+
+}
+
+
+
+

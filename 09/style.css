@@ -1,0 +1,87 @@
+body{
+
+
+    background-color: red;
+    height: 2000px;
+}
+.pai{
+
+width: 200px;
+height: 200px;
+border: 3px solid white;
+
+}
+.filho{
+
+width: 50px;
+height: 50px;
+border: 3px solid black;
+
+}
+#p-estatico{
+    background-color: rgb(111, 138, 138);
+    position: static;
+}
+#f-estatico{
+
+    background-color: rgb(139, 102, 102);
+    position: static;
+}
+#p-fixo{
+    background-color: rgb(188, 102, 223);
+    position: fixed;
+    top: 50px;
+    right: 80px;
+    bottom: 30px ;
+}
+#f-fixo{
+
+    background-color: rgb(222, 230, 117);
+    position: static;
+}
+#p-sticky{
+    background-color: rgb(204, 90, 134);
+    width: 1000px;
+    height: 1000px;
+}
+#f-sticky{
+
+    background-color: rgb(226, 209, 52);
+    position: sticky;
+    top: 50%;
+    left: 50%;
+}
+#p-relative{
+    background-color: rgb(150, 82, 108);
+    
+}
+#f-relative{
+
+    background-color: rgb(74, 122, 108);
+    position: relative;
+    left: 80px;
+    top: 50px;
+}
+#p-absolut{
+    background-color: rgb(95, 76, 83);
+    position: static;
+}
+#f-absolut{
+
+    background-color: tomato;
+    position: absolute;
+    top: 100px;
+    
+}
+#p-absolut-relative{
+    background-color: rgb(95, 76, 83);
+    position: relative;
+    
+}
+#f-absolut-com-pai{
+
+    background-color: tomato;
+    position: absolute;
+    top: 100px;
+    
+}
