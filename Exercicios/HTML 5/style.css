@@ -12,23 +12,21 @@ header{
 }
 
 #navegacao{
-    width: 80%;
-    background-color: red;
+    background-color: white;
     margin-right: auto;
     margin-left: auto;
     padding: 15px;
-    color: white;
-    font-size: 30px;
+    color: black;
+    font-size: 15px;
     overflow:hidden;
-    position: sticky;
-    top: 0px;
+
 }
 
 .simbolo{
     font-size: 40px;
 }
 
-#item-menu{
+#item-menu{ 
     list-style: none;
     float:right;
 }
@@ -48,13 +46,13 @@ li:hover{
     transform: scaleY(1);
 }
 
-#logo{
-    float: left;
-}
+
 main{
-    background-color: olivedrab;
+    /* background-color: olivedrab; */
+    background-image: url(https://s2-g1.glbimg.com/AtvH9kpxe_v-TA_XWzbFURY316k=/0x0:5373x3582/984x0/smart/filters:strip_icc/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/6/x/lFlVsrQw2UCwQqeXDqbw/kendrick-lamar-super-bowl-2025-1.jpg) ;
+    background-color: aliceblue;
     height: 2000px;
-    width: 80%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     padding: 10px 15px;
@@ -62,13 +60,12 @@ main{
     color: aqua;
 }
 #bloco{ 
-    background-color: wheat;
-    height: 200px;
-    width: 100%;
-    display: block;
-    text-align: center;
-    line-height: 200px;
-    margin-top: 20px;
+    
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 100%;
+    
+   
     
     
 }
@@ -80,32 +77,11 @@ main{
     color: black;
     font-weight: 900;
     padding: 10px;
+    margin-left: 15px;
     
     
     
 }
-.mini-bloco{
-    background-color: aqua;
-    width: 30%; 
-    margin-top: 5px;
-    display: inline-block;
-    height: 200px;
-    line-height: 200px;
-}
-#linha{
-background-color: blanchedalmond;
-padding: 10px;
-text-align: center;
-margin-top: 10px;
-color: blueviolet;
 
-}
-.mini-linha{
-    background-color: brown;
-    margin-top: 5px;
-    height: 200px; 
-    line-height: 200px;
-    width: 50%;
-    display: inline;
-}
+
 
